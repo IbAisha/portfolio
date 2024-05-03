@@ -7,3 +7,5 @@ function Nav() {
 
 <div className="main-content"></div>
 }
+
+export default Nav()
