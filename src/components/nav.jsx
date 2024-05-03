@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Nav() {
-    <div className="navbar">
-<h2>Ibrahima Aïsha</h2>
-</div>;
-
-<div className="main-content"></div>
+ 
+    return (
+        <nav className="navbar">
+            <div className="navbar-container">
+                <p>AICHOUUU</p>
+            </div>
+        </nav>
+    )
 }
+
+export default Nav;

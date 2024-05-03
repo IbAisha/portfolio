@@ -1,10 +1,18 @@
-import './App.css'
-import './components/nav.jsx';
+import React from 'react';
+import Nav from './components/Nav';
+import './App.css';
+
 
 function App() {
-
-  return <h1>Hello</h1>;
-  <Nav/>;
+ 
+  return ( 
+    <>
+      <div className="App">
+        <Nav />
+      </div>
+    </>
+    
+  )
 };
 
 export default App
