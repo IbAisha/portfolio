@@ -21,3 +21,34 @@ ul>li {
   list-style: none;
   color: brown;
 }
+
+.title>h1,h2 {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  color: rgb(68, 49, 43);
+  letter-spacing: .3rem;
+  text-shadow: 2px 2px 3px rgb(191, 150, 125);
+}
+
+.title>h2 {
+  font-weight:normal;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem 10rem ;
+  padding: 1.5rem ;
+  border: 1px solid rgb(71, 50, 34);
+  border-radius: 5px;
+}
+
+.burger-menu {
+  width: 100px;
+  height: 10px;
+  margin: 15px;
+  background-color:  rgb(68, 49, 43);
+  border-radius: 4px;
+}
