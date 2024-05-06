@@ -1,9 +1,23 @@
 body {
   margin: 0;
+  background-size:cover;
+  background-image: url('./src/assets/img/bg.jpg');
 }
 
 .navbar {
+  
   width: 100%;
   height: 5%;
-  background-color: rgb(195, 184, 174);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+padding-top: 70px;
+}
+
+ul>li {
+  display: flex;
+  list-style: none;
+  color: brown;
 }
