@@ -16,12 +16,6 @@ body {
 padding-top: 70px;
 }
 
-ul>li {
-  display: flex;
-  list-style: none;
-  color: brown;
-}
-
 .title>h1,h2 {
   display: flex;
   justify-content: center;
@@ -39,8 +33,8 @@ ul>li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 4rem 10rem ;
-  padding: 1.5rem ;
+  margin: 40px 150px ;
+  padding: 20px ;
   border: 1px solid rgb(71, 50, 34);
   border-radius: 5px;
 }
@@ -51,4 +45,26 @@ ul>li {
   margin: 15px;
   background-color:  rgb(68, 49, 43);
   border-radius: 4px;
+}
+
+.footer-items>ul>li {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  color:  rgb(68, 49, 43);
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.footer-items>ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-items {
+  background-color: rgba(60, 35, 7, 0.502);
+  bottom:0%;
+  position:absolute;
+  width: 100%;
 }
