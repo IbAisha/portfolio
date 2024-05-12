@@ -5,7 +5,6 @@ body {
 }
 
 .navbar {
-  
   width: 100%;
   height: 5%;
 }
@@ -13,7 +12,7 @@ body {
 .navbar-container {
   display: flex;
   justify-content: center;
-padding-top: 70px;
+  padding-top: 70px;
 }
 
 .title>h1,h2 {
@@ -33,10 +32,11 @@ padding-top: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 40px 150px ;
+  margin: 50px 30%  ;
   padding: 20px ;
   border: 1px solid rgb(71, 50, 34);
   border-radius: 5px;
+
 }
 
 .burger-menu {
@@ -67,4 +67,22 @@ padding-top: 70px;
   bottom:0%;
   position:absolute;
   width: 100%;
+}
+
+
+/* TABLE / PC */
+
+@media(min-width: 900px) {
+  .navbar{
+    background-color: rgba(60, 35, 7, 0.502);
+    margin: 0;
+    padding: 0;
+  }
+.navbar-container {
+  display: flex;
+  justify-content: left;
+  padding: 0;
+  
+}
+  
 }
