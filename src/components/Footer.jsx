@@ -1,7 +1,8 @@
 import React, {useState} from "react";
 
 function Footer() {
-    return (
+
+        return (
         
             <div className="footer-items">
                 <ul>
@@ -11,7 +12,6 @@ function Footer() {
                 </ul>
             </div>
     )
-    
-}
+    }
 
 export default Footer;

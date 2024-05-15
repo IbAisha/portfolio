@@ -7,11 +7,11 @@ function Nav() {
             <div className="navbar-container">
                 <img src="src/assets/img/logo.png" alt="logo Ibrahima Aicha" width="200px" />
 
-                {/* <ul>
-                    <li>Home</li>
-                    <li>Projets</li>
-                    <li>About me ?</li>
-                </ul> */}
+                <ul>
+                    <li><a href="#">//Home</a></li>
+                    <li><a href="#">//Projets</a></li>
+                    <li><a href="#">//About me</a></li>
+                </ul>
             </div>
         </nav>
     )
