@@ -16,7 +16,7 @@ body {
   padding-top: 70px;
 }
 
-.navbar-container>ul {
+.navbar-container>.list>ul {
   display: none;
 }
 
@@ -91,13 +91,17 @@ body {
   position: sticky;
 }
 
-.navbar-container>ul {
-  display:contents;
+.navbar-container>.list>ul {
+  display:flex;
+  justify-content: space-between;
   list-style: none;
-  padding: 20px;
 }
 
-.navbar-container>ul>li>a{
+.navbar-container>.list>ul>li {
+padding: 0 20px;
+}
+
+.navbar-container>.list>ul>li>a{
   display: flex;
   justify-content: space-between;
   color: rgb(68, 49, 43);
@@ -109,7 +113,7 @@ body {
   letter-spacing: .1em;
 }
 
-.navbar-container>ul>li>a:hover {
+.navbar-container>.list>ul>li>a:hover {
   color: beige;
   text-shadow: 2px 2px 3px rgb(68, 49, 43);;
   letter-spacing: .3em ;
@@ -122,10 +126,15 @@ body {
 }
 
 
-.title>h1,h2 {
- font-size: 50px;
-  letter-spacing: .4rem;
+.title>h1{
+  font-size: 50px;
+  letter-spacing: .5rem;
 
+}
+
+.title>h2 {
+  font-size: 30px;
+  letter-spacing: .4rem;
 }
 
 .title {

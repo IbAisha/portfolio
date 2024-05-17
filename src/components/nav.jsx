@@ -1,4 +1,5 @@
-import React, {useState} from "react";
+import React from "react";
+import List from '/src/components/List'
 
 function Nav() {
  
@@ -6,12 +7,7 @@ function Nav() {
         <nav className="navbar">
             <div className="navbar-container">
                 <img src="src/assets/img/logo.png" alt="logo Ibrahima Aicha" width="200px" />
-
-                <ul>
-                    <li><a href="#">//Home</a></li>
-                    <li><a href="#">//Projets</a></li>
-                    <li><a href="#">//About me</a></li>
-                </ul>
+                <List />
             </div>
         </nav>
     )
