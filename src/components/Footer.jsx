@@ -4,13 +4,13 @@ function Footer() {
 
         return (
         
-            <div className="footer-items">
+            <footer className="footer-items">
                 <ul>
                     <i>Ibrahima Aïcha</i>
-                    <li>LinkedIn</li>
-                    <li>Email</li>
+                    <li><a href='#'>LinkedIn</a></li>
+                    <li><a href='#'>Email</a></li>
                 </ul>
-            </div>
+            </footer>
     )
     }
 

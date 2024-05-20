@@ -6,7 +6,7 @@ function Nav() {
     return (
         <nav className="navbar">
             <div className="navbar-container">
-                <img src="src/assets/img/logo.png" alt="logo Ibrahima Aicha" width="200px" />
+                <img src="src/assets/img/logo.png" alt="logo Ibrahima Aicha" width="180px" />
                 <List />
             </div>
         </nav>
