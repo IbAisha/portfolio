@@ -5,12 +5,7 @@ function Nav() {
  
     return (
       <>
-        <div>
-            <nav>
-                path:
-            </nav>
 
-        </div>
     </>
     )
 }
