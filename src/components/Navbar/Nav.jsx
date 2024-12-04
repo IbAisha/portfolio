@@ -1,19 +1,28 @@
-import Nav from './components/Navbar/Nav';
+import { NavLink } from 'react-router-dom'
 
+export function Logo() {
 
-function Nav() {
+  return (
+  <>
+    <nav>
+      <img src="../src/assets/img/Logodw.png" width='190px' alt="logo Ibrahima Aicha" />
+    </nav>
+  </>
+  )
+  
+}
+
+export function Nav() {
  
     return (
       <>
-        <div>
-            <nav>
-                path:
-            </nav>
-
-        </div>
+          <nav>
+            <ul>
+              <li><NavLink to="/" className="selected">//Home</NavLink></li>
+              <li><NavLink to="/aboutme">//About Me</NavLink></li>
+              <li><NavLink to="/projets">//Projects</NavLink></li>
+            </ul>
+          </nav>
     </>
     )
 }
-
-export default Nav;
-

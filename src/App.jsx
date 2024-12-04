@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider, NavLink, Outlet } from 'react-rout
 import {Home} from './pages/home'
 import { About } from './pages/aboutme';
 import { Projets } from './pages/projets';
+import { Nav, Logo } from './components/Navbar/Nav'
 import './App.css';
 import { Children } from 'react';
 
@@ -32,10 +33,10 @@ function Root() {
 
   return <>
    <header>
-     <nav>
-       <NavLink to="/">Home</NavLink>
-       <NavLink to="/aboutme">About Me</NavLink>
-       <NavLink to="/projets">Projets</NavLink>
+     <nav> 
+       <Logo/>
+       <Nav/>
+      
      </nav>
    </header>
 
