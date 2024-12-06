@@ -1,6 +1,6 @@
-import React, {useState} from "react";
+import {Nav} from './Navbar/Nav'
 
-function Menu() {
+export function Menu() {
 
     return (
     
@@ -16,4 +16,19 @@ function Menu() {
     
 }
 
-export default Menu;
+export function OpenMenu() {
+    const open = document.getElementsByClassName('menu');
+
+    return (
+        
+
+        <div id="sideMenu" className="sidenav">
+            <Nav/>
+
+            <span on onClick={'open'}></span>
+        </div>
+
+        
+    )
+}
+

@@ -1,19 +1,27 @@
 body {
   margin: 0;
-  background-size:cover;
+  /* background-size:cover;
   background-image: url('./src/assets/img/bg.jpg');
-  background-position:center;
+  background-position:center; */
+  background-color: rgba(250, 240, 228, 0.911);;
 }
 
 
 nav {
+  background-color: rgba(240, 232, 227, 0.911);
   display: flex;
-  justify-content: center;
-  padding-top: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0
 }
 
-nav>ul {
-  display: none;
+.navlink {
+  display:none;
+
+}
+
+.title {
+  margin-top: 100px
 }
 
 .title>h1,h2 {
@@ -33,17 +41,12 @@ nav>ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 50px 30%  ;
-  padding: 20px ;
-  border: 1px solid rgb(71, 50, 34);
-  border-radius: 5px;
-
 }
 
 .burger-menu {
-  width: 100px;
-  height: 10px;
-  margin: 15px;
+  width: 50px;
+  height: 5px;
+  margin: 10px;
   background-color:  rgb(68, 49, 43);
   border-radius: 4px;
 }
@@ -78,7 +81,6 @@ nav>ul {
 @media(min-width: 760px) {
 
 nav {
-  background-color: rgba(240, 232, 227, 0.911);
   margin: 0;
   padding: 0;
   display: flex;
@@ -91,17 +93,17 @@ nav>img {
   position: sticky;
 }
 
-nav>ul {
+.navlink {
   display:flex;
   justify-content: space-between;
   list-style: none;
 }
 
-nav>ul>li{
+li{
 padding: 0 20px;
 }
 
-nav>ul>li>a{
+.navlink>li>a{
   display: flex;
   justify-content: space-between;
   color: rgb(68, 49, 43);
@@ -123,13 +125,7 @@ a:hover {
 
 .active {
   text-decoration: underline;
-  letter-spacing: .4em ;
 }
-
-.menu {
-  display: none;
-}
-
 
 .title>h1{
   font-size: 50px;
@@ -143,8 +139,7 @@ a:hover {
 }
 
 .title {
-  margin-top: 100px;
-
+  margin-top: 200px;
 }
 
 }

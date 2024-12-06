@@ -6,6 +6,8 @@ import { Projets } from './pages/projets';
 import { Nav, Logo } from './components/Navbar/Nav'
 import './App.css';
 import { Children } from 'react';
+import { Menu } from './components/Menu';
+import {Footer} from './components/Footer'
 
 const router = createBrowserRouter([
   {
@@ -34,11 +36,15 @@ function Root() {
   return <>
    <header>
      <nav> 
+       <Menu/>
        <Logo/>
        <Nav/>
-      
      </nav>
    </header>
+
+   <footer>
+     <Footer/>
+   </footer>
 
    <div>
      <Outlet/>
@@ -50,7 +56,7 @@ function Root() {
 function App() {
  
   return( 
-    <div>
+    <div className='router'>
       <RouterProvider router={router}/>
     </div>
   )

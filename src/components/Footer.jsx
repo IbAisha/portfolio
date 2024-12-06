@@ -1,6 +1,4 @@
-import React, {useState} from "react";
-
-function Footer() {
+export function Footer() {
 
         return (
         
@@ -13,5 +11,3 @@ function Footer() {
             </footer>
     )
     }
-
-export default Footer;
