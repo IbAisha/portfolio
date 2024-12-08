@@ -4,8 +4,7 @@ export function Title() {
         <main>
             <div className="title">
                 <h1>Aicha Ibrahima</h1>
-                <h2>Web Developper</h2>
-                
+                <h2>Web Developper / Student</h2>
             </div>
         </main>
     )   

@@ -5,8 +5,8 @@ export function Logo() {
 
   return (
   <>
-    <nav className='Logo'>
-      <img src="../src/assets/img/Logodw.png" width='120px' alt="logo Ibrahima Aicha" />
+    <nav>
+      <img className='logo'src="../src/assets/img/Logodw.png" width='120px' alt="logo Ibrahima Aicha" />
     </nav>
   </>
   )
