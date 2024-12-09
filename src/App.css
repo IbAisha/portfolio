@@ -6,6 +6,21 @@ body {
   background-color: rgba(250, 240, 228, 0.911);;
 }
 
+section{
+
+      margin: 10px;
+      padding: 20px;
+      border-radius: 5px;
+      background-color: rgb(247, 235, 235);
+      color: #44312b;
+      width: 400px;
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:  400;
+  font-style: normal;
+}
+
+
 
 nav {
   /* background-color: rgba(240, 232, 227, 0.911); */
@@ -49,6 +64,25 @@ nav {
   margin: 10px;
   background-color:  rgb(68, 49, 43);
   border-radius: 4px;
+}
+
+/*ABOUT ME PAGE*/
+
+span {
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+
+.cat-title {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  color: #44312b;
+}
+
+li {
+  list-style: none;
 }
 
 .footer-items>ul>li>a {
@@ -147,19 +181,11 @@ padding: 0 20px;
   margin-top: 90px;
 }
 
-}
-
-section {
-  margin: 10px;
-  padding: 20px;
-  border-radius: 5px;
-  background-color: rgb(253, 249, 249);
-  color: #44312b;
-  width: 200px;
-}
-
-#aboutme {
+.section {
   display: flex;
-  justify-content: center;
-  color: #44312b;
+  flex-direction: row;
 }
+
+
+}
+
