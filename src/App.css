@@ -6,22 +6,6 @@ body {
   background-color: rgba(250, 240, 228, 0.911);;
 }
 
-section{
-
-      margin: 10px;
-      padding: 20px;
-      border-radius: 5px;
-      background-color: rgb(247, 235, 235);
-      color: #44312b;
-      width: 400px;
-  font-family: "Parkinsans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight:  400;
-  font-style: normal;
-}
-
-
-
 nav {
   /* background-color: rgba(240, 232, 227, 0.911); */
   display: flex;
@@ -39,14 +23,16 @@ nav {
   margin-top: 100px
 }
 
-.title>h1,h2 {
+.title>h1, .title>h2 {
   display: flex;
   justify-content: center;
   text-transform: uppercase;
   color: rgb(68, 49, 43);
   letter-spacing: .3rem;
   text-shadow: 2px 2px 3px rgb(191, 150, 125);
+  
 }
+
 
 .title>h2 {
   font-weight:normal;
@@ -79,7 +65,35 @@ span {
   display: flex;
   justify-content: center;
   color: #44312b;
+  font-size: 2rem;
 }
+
+@keyframes mymove {
+  from {left:-20px;}
+  to {top: 20px;}
+}
+
+section{
+
+  margin: 10px;
+  padding: 20px;
+  border-radius: 1px;
+  background-color: rgb(247, 233, 233);
+  color: #44312b;
+  width: 400px;
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:  400;
+  font-style: normal;
+  /* The element to apply the animation to */
+
+  animation-name: mymove;
+  animation-duration: 10s;
+}
+
+
+/**************/
+
 
 li {
   list-style: none;
@@ -181,11 +195,9 @@ padding: 0 20px;
   margin-top: 90px;
 }
 
-.section {
+.sections {
   display: flex;
   flex-direction: row;
 }
 
-
 }
-

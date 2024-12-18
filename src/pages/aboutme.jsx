@@ -5,14 +5,15 @@ export function About() {
 
             <h1 className="cat-title">ABOUT ME</h1>
 
-            <div className="section">
-            <section>
+            <div className="sections">
+
+            <section className="individual-section">
                 <p>
                 My name is Aïcha Ibrahima,
                 I'm a student IT and I'm currently learning to code.
                 What I love in softawre engineering ? <span>Creativy.</span><br/>
                 I actually love to express my creativty by sewing, playing guitar or doing make up. <br/>
-                Coding is for me, antoher kind of way I can express myself.
+                Coding is for me, antoher way to express myself.
                 </p>
                 
             </section>
@@ -20,16 +21,15 @@ export function About() {
 
            
 
-            <section>
+            <section className="individual-section">
                 <div>
-                    <h2>Laguages programmation :</h2>
+                    <h2>Hard skills</h2>
                     <h3>Front-end</h3>
                     <ul>
-                        <li>Html5/CSS3</li>
+                        <li>HTML5/CSS3</li>
                         <li>Javascript</li>
                         <li>React.JS</li>
-                        <li>UX/UI Lover</li>
-                        <li>SEO Enthusiast</li>
+                        <li>UX/UI</li>
                     </ul>
                 </div>
 
@@ -38,14 +38,14 @@ export function About() {
                     <ul>
                         <li>Orientend-Object Programmation (MVC model)</li>
                         <li>PHP</li>
-                        <li>Symfony</li>
+                        <li>Node.js</li>
                     </ul>
                     
                 </div>
           
             </section>
 
-            <section>
+            <section className="individual-section">
                 <h3>Experiences professionnelles</h3>
                 
 
@@ -53,6 +53,7 @@ export function About() {
                          
             
             </section>
+            
             </div>
             
             
